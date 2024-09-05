@@ -9,7 +9,7 @@ import './Layout/global.css';
 function App() {
   return (
     <>
-     <BrowserRouter>
+     <BrowserRouter basename='https://prince-ip-1.github.io/live_shop_lite/'>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
