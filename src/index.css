@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Outfit-Black;
+  src: url('./assests/font/Outfit-Black.ttf');
+}
+@font-face {
+  font-family: Outfit-Bold;
+  src: url('./assests/font/Outfit-Bold.ttf');
+}
+@font-face {
+  font-family: Outfit-ExtraBold;
+  src: url('./assests/font/Outfit-ExtraBold.ttf');
+}
+@font-face {
+  font-family: Outfit-ExtraLight;
+  src: url('./assests/font/Outfit-ExtraLight.ttf');
+}
+@font-face {
+  font-family: Outfit-Light;
+  src: url('./assests/font/Outfit-Light.ttf');
+}
+@font-face {
+  font-family: Outfit-Medium;
+  src: url('./assests/font/Outfit-Medium.ttf');
+}
+@font-face {
+  font-family: Outfit-Regular;
+  src: url('./assests/font/Outfit-Regular.ttf');
+}
+@font-face {
+  font-family: Outfit-SemiBold;
+  src: url('./assests/font/Outfit-SemiBold.ttf');
+}
+@font-face {
+  font-family: Outfit-Thin;
+  src: url('./assests/font/Outfit-Thin.ttf');
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Outfit-Regular;
+  /* font-family: Outfit-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

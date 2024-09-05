@@ -1,0 +1,11 @@
+
+/* ----------- Banner Css Start ------------- */
+
+.banner .slick-slider, 
+.selling_items .slick-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------- Banner Css End ------------- */
